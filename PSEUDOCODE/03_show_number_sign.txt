@@ -1,0 +1,10 @@
+READ a
+
+IF a > 0 THEN
+   WRITE "S-a introdus o valoare pozitiva"
+ELSE IF a < 0 THEN
+   WRITE "S-a introduc o valoare negativa"
+ELSE 
+   WRITE "S-a introdus o valoare nula"
+ENDIF
+

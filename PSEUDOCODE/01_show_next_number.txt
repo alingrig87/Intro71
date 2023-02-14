@@ -1,0 +1,4 @@
+READ a
+VAR nextNumber = a + 1
+WRITE nextNumber
+

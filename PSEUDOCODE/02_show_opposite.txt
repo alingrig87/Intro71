@@ -1,0 +1,3 @@
+READ a
+VAR opposite = a*(-1)
+WRITE opposite
