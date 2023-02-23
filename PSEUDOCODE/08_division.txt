@@ -1,0 +1,11 @@
+READ a
+READ b
+
+VAR div
+
+IF b != 0 THEN
+   div = a/b
+   WRITE "Rezultatul impartirii este:" div
+ELSE 
+   WRITE "Operatie imposibila, impartitorul este nul"
+ENDIF

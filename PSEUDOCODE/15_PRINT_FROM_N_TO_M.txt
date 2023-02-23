@@ -1,0 +1,9 @@
+READ n 
+READ m
+
+VAR i = n 
+
+WHILE i <= m 
+   WRITE i 
+   i = i + 1
+ENDWHILE

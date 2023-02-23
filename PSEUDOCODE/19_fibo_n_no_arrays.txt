@@ -1,0 +1,47 @@
+READ n
+
+VAR a = 0
+VAR b = 1
+VAR tmp = 0
+
+WRITE a
+
+WHILE tmp <= n
+   WRITE b
+   tmp = a + b
+   a = b
+   b = tmp
+ENDWHILE
+
+
+
+READ a
+
+VAR b
+VAR x
+VAR y
+VAR i
+
+IF a<=0 THEN
+	WRITE "error"
+ELSE
+b=2
+x=o
+y=1
+i=1
+
+IF a=1 THEN
+	WRITE x
+	WRITE y
+ELSE
+WRITE x
+WRITE y
+ WHILE b%2=0 AND b<=a DO
+	WRITE x=x+y
+	b=b+i
+	WHILE b%2=1 AND b<=a DO
+	WRITE y=x+y
+	b=b+i
+	ENDWHILE
+ENDWHILE
+ENDIF

@@ -1,0 +1,12 @@
+READ n
+READ m
+
+VAR i = n + 1
+
+IF m - n < 2
+   WRITE "Nicio valoare de afisat"
+
+WHILE i <= m - 1
+   WRITE i
+   i = i + 1
+ENDWHILE

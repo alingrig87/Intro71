@@ -1,0 +1,16 @@
+READ distance
+READ time
+
+VAR averageSpeed
+
+IF time == 0 AND distance == 0 THEN
+   WRITE "Nu ai plecat inca de pe loc"
+ELSE IF time == 0 
+   WRITE "Felicitari! Se pare ca ai inventat teleportarea!"
+ELSE IF time < 0 OR distance < 0
+   WRITE "Distanta parcursa si durata trebuie sa fie pozitive"
+ELSE 
+   averageSpeed = distance / time
+   WRITE "Viteza medie a fost" averageSpeed "km/h"
+ENDIF
+

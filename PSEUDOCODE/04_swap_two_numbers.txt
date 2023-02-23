@@ -1,0 +1,9 @@
+READ a
+READ b
+
+VAR tmp = a
+a = b
+b = tmp
+
+WRITE a
+WRITE b

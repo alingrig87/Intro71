@@ -1,0 +1,12 @@
+READ a
+READ b
+
+VAR max
+VAR min
+
+IF a < b THEN
+   WRITE max este b si min este a
+ELSE 
+   WRITE max este a si min este b
+ENDIF
+

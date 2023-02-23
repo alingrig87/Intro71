@@ -1,0 +1,8 @@
+READ n
+VAR i = n - 1
+
+WHILE i >= 0
+   WRITE i
+   i = i - 1
+ENDWHILE
+

@@ -1,0 +1,8 @@
+READ a
+READ b
+
+VAR sum = a + b
+VAR prod = a * b
+
+WRITE "Suma este:" sum
+WRITE "Produsul este:" prod

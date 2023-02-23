@@ -1,0 +1,21 @@
+READ n
+
+VAR i = 1
+
+WHILE i <= n
+   WRITE i 
+   i = i + 1
+ENDWHILE
+
+Iteratia 1:
+i = 1, i <= n (1<=5 --> TRUE) , se printeaza 1, i devine 2
+Iteratia 2:
+i = 2, i <= n (2<=5 --> TRUE) , se printeaza 2, i devine 3
+Iteratia 3:
+i =3, i <= n (3<=5 --> TRUE) , se printeaza 3, i devine 4
+Iteratia 4:
+i =4, i <= n (4<=5 --> TRUE) , se printeaza 4, i devine 5
+Iteratia 5:
+i =5, i <= n (5<=5 --> TRUE) , se printeaza 5, i devine 6
+Iteratia 6:
+i =6, i <= n (6<=5 --> FALSE) , WHILE se incheie si se iese din el

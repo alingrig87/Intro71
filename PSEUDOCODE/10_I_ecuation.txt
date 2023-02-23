@@ -1,0 +1,13 @@
+READ a
+READ b
+
+VAR x
+
+IF a != 0 THEN
+   x = -b/a
+   WRITE "Solutie x=" x
+ELSE IF a == 0 AND b == 0
+   WRITE "Solutie: Multimea numerelor reale"
+ELSE 
+   WRITE "Ecuatia nu are solutii"
+ENDIF
