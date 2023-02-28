@@ -4,19 +4,25 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>HTML CSS JS</title>
+		<title>BMI Calculator</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div class="container">
+			<h2>Calculator Indice de masă corporală</h2>
 			<div class="input">
-				<label for="first-number">Enter a number</label>
-				<input type="text" id="first-number" />
+				<label for="greutate">Greutate (kg)</label>
+				<input type="text" id="greutate" />
+			</div>
+			<div class="input">
+				<label for="inaltime">Înălţime (m)</label>
+				<input type="text" id="inaltime" />
 			</div>
 			<div class="btn">
-				<button onclick="showNumber();">Show Next Number</button>
+				<button onclick="calculeazaIMC();">Calculeaza IMC</button>
 			</div>
-			<p id="output">Results here...</p>
+			<p id="imc-output">IMC:</p>
+			<p id="output"></p>
 		</div>
 		<script src="app.js"></script>
 	</body>

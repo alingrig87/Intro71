@@ -1,0 +1,23 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 1.5px solid darkblue;
+	padding: 20px;
+	width: 720px;
+	margin: auto;
+	background-color: rgb(219, 219, 237);
+	border-radius: 5px;
+	align-items: center;
+}
+
+.input {
+	display: flex;
+	padding: 5px;
+	width: 300px;
+	justify-content: space-between;
+}

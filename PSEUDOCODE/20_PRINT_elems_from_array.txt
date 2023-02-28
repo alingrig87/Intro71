@@ -1,0 +1,8 @@
+READ arr
+
+VAR i = 0
+
+WHILE i <= arr.length - 1 
+   WRITE arr[i]
+   i = i + 1
+ENDWHILE
