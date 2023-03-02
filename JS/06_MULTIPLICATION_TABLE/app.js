@@ -1,17 +1,18 @@
-var firstNumberInput = document.getElementById('first-number');
+var numberInput = document.getElementById('number');
 var output = document.getElementById('output');
 
-function showNumber() {
-	var firstNumber = firstNumberInput.value;
-	output.textContent = Number(firstNumber);
+function showMultiplicationTable() {
+	var number = Number(numberInput.value);
+	output.textContent = '';
 
-	// if (isNaN(firstNumber) == true) {
-	// 	output.textContent = 'Va rugam introduceti un numar!';
-	// }
-
-	if (firstNumber < 0) {
-		output.style.color = 'red';
-	} else {
-		output.style.color = 'green';
+	var i = 1;
+	while (i <= 10) {
+		var tmpOutput = number + ' x ' + i + ' = ' + number * i + '<br>';
+		output.innerHTML = output.innerHTML + tmpOutput;
+		i++;
 	}
 }
+
+// 5 x 1 = 5
+// 5 x 2 = 10
+//
